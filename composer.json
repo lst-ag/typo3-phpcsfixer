@@ -1,0 +1,15 @@
+{
+    "name": "lst/typo3-phpcsfixer",
+    "description": "The PHP Coding Standards Fixer rules used for LST TYPO3 projects",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LST\\TYPO3PhpCsFixer\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "typo3/coding-standards": "^0.8"
+    },
+    "license": "GPL-2.0-or-later"
+}
