@@ -9,7 +9,7 @@
     },
     "require": {
         "php": "^8.1",
-        "typo3/coding-standards": "^0.8"
+        "typo3/coding-standards": "^0.7"
     },
     "license": "GPL-2.0-or-later"
 }
