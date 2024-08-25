@@ -7,7 +7,7 @@ namespace LST\TYPO3PhpCsFixer;
 class CsFixerConfig extends \TYPO3\CodingStandards\CsFixerConfig
 {
     protected static array $customRules = [
-        'blank_line_before_statement' => true,
+        'blank_line_before_statement' => ['statements' => ['declare', 'return', 'throw', 'try']],
         'header_comment' => ['header' => ''],
     ];
 
