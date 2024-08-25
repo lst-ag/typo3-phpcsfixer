@@ -20,6 +20,8 @@ class CsFixerConfig extends \TYPO3\CodingStandards\CsFixerConfig
     {
         $static = parent::create();
         $static->setRules(static::getCombinedRules());
+        $static->getFinder()
+            ->notPath('config/system/settings.php');
 
         return $static;
     }
